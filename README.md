@@ -1,2 +1,7 @@
-# alx-project-0x02-setup
-This project is a comprehensive introduction to setting up and working with Next.js, TypeScript, and Tailwind CSS. It guides you through creating a modern web application with reusable components, routing, API integration, and proper project structure.
+# Next.js Project Setup and Basics
+
+This repository contains the initial setup and structure for a Next.js project built with TypeScript and Tailwind CSS. It serves as an introduction to working with these technologies and provides the basic foundation for creating modern web applications.
+
+### Purpose
+
+The goal of this repository is to provide a clean and organized starting point for building scalable and maintainable Next.js applications. It will also help in understanding fundamental concepts like routing, components, and API integration.
