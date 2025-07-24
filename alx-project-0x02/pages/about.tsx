@@ -1,4 +1,5 @@
 import Button from "@/components/common/Button";
+import Header from "@/components/layout/Header";
 
 const About = () => {
   const handleClick = (label: string) => {
@@ -6,7 +7,9 @@ const About = () => {
   };
 
   return (
-    <div className="p-6">
+    <div>
+      <Header />
+      <div className="p-6">
       <h1 className="text-3xl font-bold mb-6">About Page</h1>
       <div className="space-y-4">
         <Button
@@ -28,6 +31,7 @@ const About = () => {
           onClick={() => handleClick("Large")}
         />
       </div>
+    </div>
     </div>
   );
 };

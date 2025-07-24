@@ -6,18 +6,23 @@ const Header: React.FC = () => (
     <nav>
       <ul className="flex space-x-4">
         <li>
-          <Link href="/home">
-            <a className="text-white hover:text-gray-300">Home</a>
+          <Link href="/home" className="text-white hover:text-gray-300">
+            Home
           </Link>
         </li>
         <li>
-          <Link href="/about">
-            <a className="text-white hover:text-gray-300">About</a>
+          <Link href="/about" className="text-white hover:text-gray-300">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link href="/posts" className="text-white hover:text-gray-300">
+            Posts
           </Link>
         </li>
       </ul>
     </nav>
   </header>
-)
+);
 
 export default Header;
