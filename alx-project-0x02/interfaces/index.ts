@@ -15,3 +15,16 @@ export interface ButtonProps {
     label: string; // Text that will be displayed on the button
     onClick: () => void; // Function to handle click event
 }
+
+export interface PostProps {
+    userId: number;
+    title: string;
+    content: string;
+}
+
+export interface Post {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;  // the API provides the body, not content
+}
