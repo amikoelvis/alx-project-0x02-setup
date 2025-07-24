@@ -1,4 +1,3 @@
-import { GetStaticProps } from "next";
 import PostCard from "@/components/common/PostCard";
 import { Post, PostProps } from "@/interfaces";
 
@@ -25,7 +24,7 @@ const Posts: React.FC<PostsPageProps> = ({ posts }) => {
 };
 
 // Fetch data using getStaticProps
-export const getStaticProps: GetStaticProps = async () => {
+export async function getStaticProps() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
   const data: Post[] = await res.json();
 

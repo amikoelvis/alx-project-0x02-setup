@@ -44,7 +44,7 @@ const PostModal: React.FC<PostModalProps> = ({isOpen, onClose, onSubmit}) => {
                     </div>
                     <div className="flex justify-between">
                         <button type="button" onClick={onClose} className="bg-gray-300 p-2 rounded">Cancel</button>
-                        <button type="submit" className="bg-blue-500 text-white p-2 rounded"></button>
+                        <button type="submit" className="bg-blue-500 text-white p-2 rounded">Submit</button>
                     </div>
                 </form>
             </div>
